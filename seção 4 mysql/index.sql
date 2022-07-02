@@ -1,1 +1,1 @@
-DELETE FROM usuarios WHERE nome = 'Qualquer nome';
+UPDATE usuarios SET nome = 'Nome teste' WHERE nome = 'Allan Saraiva';
