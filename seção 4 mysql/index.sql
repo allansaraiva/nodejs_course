@@ -1,1 +1,1 @@
-SELECT * FROM usuarios WHERE idade = 14;
+DELETE FROM usuarios WHERE nome = 'Qualquer nome';
