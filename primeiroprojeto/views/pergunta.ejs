@@ -11,6 +11,7 @@
           <h3>Responda</h3>
           <label for="">Resposta:</label>
           <textarea name="corpo" cols="30" rows="10" placeholder="Digite sua resposta" class="form-control"></textarea><br>
+          <input type="hidden" name="pergunta" value="<%= pergunta.id %>">
           <button type="submit" class="btn btn-primary">Responder</button>
         </form>
       </div>
